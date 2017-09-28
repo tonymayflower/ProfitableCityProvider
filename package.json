@@ -1,0 +1,22 @@
+{
+  "name": "ProfitableCityProvider",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:dugouchet/ProfitableCityProvider.git",
+  "author": "Anthony Dugouchet <adgouchet@lafourchette.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "assert": "^1.4.1",
+    "axios": "^0.16.2",
+    "bluebird": "^3.5.0",
+    "config": "^1.26.2",
+    "eslint": "^4.7.2",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.5.3",
+    "restify": "^6.0.1"
+  }
+}
