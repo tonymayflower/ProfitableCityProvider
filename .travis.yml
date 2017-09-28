@@ -12,3 +12,9 @@ addons:
 script:
   # other script steps might be done before running the actual analysis
   - sonar-scanner
+#  - sonar-scanner -Dsonar.analysis.mode=preview \
+#              -Dsonar.github.pullRequest=${TRAVIS_PULL_REQUEST} \
+#              -Dsonar.github.repository=dugouchet/ProfitableCityProvider \
+#              -Dsonar.github.oauth="c30f0a4b223d4cc010b2415a3ae83875a85b4528" \
+#              -Dsonar.host.url=https://sonarcloud.io \
+#              -Dsonar.login=$SONAR_TOKEN
