@@ -19,6 +19,8 @@
     "istanbul": "^0.4.5",
     "mocha": "^3.5.3",
     "nyc": "^11.2.1",
-    "restify": "^6.0.1"
+    "path": "^0.12.7",
+    "restify": "^6.0.1",
+    "restify-router": "^0.4.2"
   }
 }
